@@ -1,9 +1,9 @@
 # Git and Version Control
 
 ## Setup 
-1. Make sure you have git installed.  If not `brew install git` or visit [Official Git website](https://git-scm.com/)
-2. Make sure you have a bitbucket account: [Bitbucket website](https://bitbucket.org/)
-3. Download SourceTree: [SourceTreeApp](https://www.sourcetreeapp.com/)
+1. Make sure you have git installed.  If not `brew install git` on iOS, `apt install git` on Debian/Ubuntu or visit [Official Git website](https://git-scm.com/)
+2. Make sure you have a github account: [GitHub website](https://github.com/)
+3. Download GitKraken: [GitKraken](https://support.gitkraken.com/getting-started/guide)
 
 
 ## Part 1
@@ -27,7 +27,7 @@
     5. Branch
 
 ### Plan
-1. **REA**: overview of Git - [Intro to Git for Science](http://karthik.github.io/git_intro/#/slide-title)
+1. **LAB**: overview of Git - [Intro to Git for Science](http://karthik.github.io/git_intro/#/slide-title)
 2. **Individual work**: Software carpentry course units 2 - 6 only: [Git - SoftwareCarpentry](http://swcarpentry.github.io/git-novice/)
 
 ## Part 2
@@ -35,7 +35,7 @@
 1. Understand a what a remote repository is. 
 2. Understand how to collaborate with others. 
 3. Fix conflicts. 
-2. Use SourceTree to manage your repositories and remotes. 
+2. Use GitKraken to manage your repositories and remotes. 
 3. Understand the following commands: 
     1. `clone`
     2. `fetch`
@@ -45,13 +45,12 @@
 ### Plan
 1. **REA**: overview of collaboration and remotes [Intro to Git for Science](http://karthik.github.io/git_intro/#/slide-title)
 2. **Individual work**: Software carpentry course units 7 - end: [Git - SoftwareCarpentry](http://swcarpentry.github.io/git-novice/)
-3. **Individual work**: SourceTree tutorial. 
+3. **Individual work**: GitKraken tutorial. 
 
 ## Resources:
 1. Official Git documentation: [Git docs](https://git-scm.com/doc)
 2. Useful Git tutorial: [Atlassian tutorial](https://www.atlassian.com/git/tutorials/)
-3. SourceTree tutorial: [SourceTree tutorial](https://confluence.atlassian.com/bitbucket/tutorial-learn-sourcetree-with-bitbucket-cloud-760120235.html)
+3. GitKraken tutorial: [GitKraken tutorial](https://support.gitkraken.com/getting-started/guide)
 4. [Visual Git](http://marklodato.github.io/visual-git-guide/index-en.html) (REALLY HELPFUL!) 
-3. [Branches](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/version-control/ReadMeSession1.md#branches)
-4. [How to do branches properly](http://nvie.com/posts/a-successful-git-branching-model/)
-
+5. [Branches](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/version-control/ReadMeSession1.md#branches)
+6. [How to do branches properly](http://nvie.com/posts/a-successful-git-branching-model/)
