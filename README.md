@@ -14,11 +14,11 @@ Tuesday 29th May (DRG)
     * A quick guided introduction to getting going with the PyCharm IDE
     * [A Python Framework for Simple Game Mechanics](pyGlet-GameMechanics.md)
     * [A more detailed look at debugging using PyCharm](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyCharm.md)
-    * [Basic Python features](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/python-outline.md#python-outline)
-    * [Basic Principles of Object-Oriented Programming](Python/4_object_orientation.md)
+    * [Basic Python features](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/outlines/python-outline.md#python-outline)
+    * [Basic Principles of Object-Oriented Programming](python/4_object_orientation.md)
 * 11:30 coffee
 * 13:00 Lunch
-* 14:00 [Scipy and NumPy](Python/5_numpy.md)
+* 14:00 [Scipy and NumPy](python/5_numpy.md)
 * 15:15 Coffee 
 * 15:30 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](pyGlet-GameMechanics-II.md)
 * 17:30 Finish 
@@ -28,10 +28,10 @@ Wednesday 30th May (LAB, MOC, SA, DRG)
 * 10:00 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/pyGlet-GameMechanics-II.md)
 * 11:15 coffee
 * 11:30 Version Control 
-    * [Part 1: Basic git - structure & commands](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#git-and-version-control) - LAB
+    * [Part 1: Basic git - structure & commands](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/outlines/git-outline.md#git-and-version-control) - LAB
 * 12:30 Lunch
 * 13:30 Version Control 
-    * [Part 2: Remote repos & GIT GUIs](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#part-2) - LAB
+    * [Part 2: Remote repos & GIT GUIs](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/outlines/git-outline.md#part-2) - LAB
 * 14:30 coffee
 * 14:45 [Testing software and catching errors](testing/README.md) ([slides](testing/Testing.ppt)) - LAB/DRG
 * 15:15 A REALLY Quick overview of machine learning & data science (DRG)
