@@ -28,10 +28,10 @@ Wednesday 30th May (LAB, MOC, SA, DRG)
 * 10:00 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/pyGlet-GameMechanics-II.md)
 * 11:15 coffee
 * 11:30 Version Control 
-    * [Part 1: Basic git - structure & commands](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/outlines/git-outline.md#git-and-version-control) - LAB
+    * [Part 1: Basic git - structure & commands](git-outline.md#git-and-version-control) - LAB
 * 12:30 Lunch
 * 13:30 Version Control 
-    * [Part 2: Remote repos & GIT GUIs](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/outlines/git-outline.md#part-2) - LAB
+    * [Part 2: Remote repos & GIT GUIs](outlines/git-outline.md#part-2) - LAB
 * 14:30 coffee
 * 14:45 [Testing software and catching errors](testing/README.md) ([slides](testing/Testing.ppt)) - LAB/DRG
 * 15:15 A REALLY Quick overview of machine learning & data science (DRG)
