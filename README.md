@@ -10,9 +10,9 @@ Tuesday 29th May (DRG)
 
 * 10:00 Introduction and Overview
 * 10:15 Getting Started 
-    * [Hello World with Python](gettingStarted.md)
+    * [Hello World with Python](outlines/gettingStarted.md)
     * A quick guided introduction to getting going with the PyCharm IDE
-    * [A Python Framework for Simple Game Mechanics](pyGlet-GameMechanics.md)
+    * [A Python Framework for Simple Game Mechanics](outlines/pyGlet-GameMechanics.md)
     * [A more detailed look at debugging using PyCharm](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyCharm.md)
     * [Basic Python features](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/outlines/python-outline.md#python-outline)
     * [Basic Principles of Object-Oriented Programming](python/4_object_orientation.md)
@@ -20,7 +20,7 @@ Tuesday 29th May (DRG)
 * 13:00 Lunch
 * 14:00 [Scipy and NumPy](python/5_numpy.md)
 * 15:15 Coffee 
-* 15:30 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](pyGlet-GameMechanics-II.md)
+* 15:30 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](outlines/pyGlet-GameMechanics-II.md)
 * 17:30 Finish 
 
 Wednesday 30th May (LAB, MOC, SA, DRG)
