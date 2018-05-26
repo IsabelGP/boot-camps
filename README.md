@@ -61,7 +61,7 @@ Friday 1st Jun (LAB, MOC, SA, DRG)
 
 ## Hints and tips
 
-[Hints and tips](HintsAndTips.md) on common Bash and editor commands.
+[Hints and tips](outlines/hints_and_tips.md) on common Bash and editor commands.
 
 Beginners guide to using the [shell](shell/README.md)
 ## Before you arrive...
