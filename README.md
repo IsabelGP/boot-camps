@@ -33,7 +33,7 @@ Wednesday 30th May (LAB, MOC, SA, DRG)
 * 13:30 Version Control 
     * [Part 2: Remote repos & GIT GUIs](outlines/git-outline.md#part-2) - LAB
 * 14:30 coffee
-* 14:45 [Testing software and catching errors](testing/README.md) ([slides](testing/Testing.ppt)) - LAB/DRG
+* 14:45 [Testing software and catching errors](testing/README.md) ([slides](testing/slides.pdf)) - LAB/DRG
 * 15:15 A REALLY Quick overview of machine learning & data science (DRG)
 * 15:45 coffee
 * 16:00 Overview of the three hackathon projects
