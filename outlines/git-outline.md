@@ -44,7 +44,7 @@
     4. `push`
 
 ### Plan
-1. **LAB**: overview of collaboration and remotes [Intro to Git Remotes](../presentations/git_basics.pdf) (Adapted from [shacon](https://github.com/schacon/git-presentations/blob/master/basic_git_talk/))
+1. **LAB**: overview of collaboration and remotes [Intro to Git Remotes](../presentations/git_remotes.pdf) (Adapted from [shacon](https://github.com/schacon/git-presentations/blob/master/basic_git_talk/))
 2. **Individual work**: Software carpentry course units 7 - 9: [Git - SoftwareCarpentry](http://swcarpentry.github.io/git-novice/)
 3. **Individual work**: [GitKraken tutorial](https://support.gitkraken.com) (Video and navigate sidebar: GitKraken->Start Here)
 
