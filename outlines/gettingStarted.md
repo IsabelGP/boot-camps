@@ -68,7 +68,7 @@ Major software development firms have shown (over and over again) that developer
 
 Different languages and platforms have their own IDE tools. For example, OSX developers writing in C++, C, iOS, or Objective C tend to use XCode, which is Apple's IDE. Microsoft developers writting in C++, C, or C# for Windows platforms often use Microsoft's Visual Studio IDE.
 
-One of the most popular IDEs for Python is called PyCharm - this is going to be our preferred way of writing python during this course. It's a little more complicated to get hello World going in PyCharm, but it's totally worth it for lots of reasons. Follow the steps below to get going:
+One of the most popular IDEs for Python is called PyCharm - this is going to be our preferred way of writing python during this course. It's a little more complicated to get hello World going in an IDE like PyCharm, but it's totally worth it for lots of reasons. Follow the steps below to get going:
 
 1) make a directory called /helloTest
 2) open PyCharm
