@@ -15,7 +15,7 @@ Tuesday 29th May (DRG)
     * [this video is also a nice outline of how to debug in PyCharm](https://www.youtube.com/watch?v=BBPoInSOiOY)
     
 * 11:00 Learning more about Python
-    * [A Python Framework for Simple Game Mechanics](Python/I-pyGlet-GameMechanics.md)
+    * [A Python Framework for Simple Game Mechanics](Outlines/I-pyGlet-GameMechanics.md)
     * Basic Python features
       * [containers, lists, and dictionaries](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/1_lists_and_dictionaries.md)
       * [functions & modules](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/2_functions_and_modules.md)
