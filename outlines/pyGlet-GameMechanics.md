@@ -2,7 +2,7 @@
 
 In this section, you will explore some simple game mechanics available in Python using [pyGlet](https://bitbucket.org/pyglet/pyglet/wiki/Home), which you will need to install using pip into Anaconda with python 3.6.
 
-There is an excellent & very easy tuturial on basic pyGlet structure which is [available at this link](http://simeonfranklin.com/talk/pyglet/slides.html#slide-1), which you should work your way through. Don't worry about making the game suggested in the final slide of the tutorial. Work through the example below instead.
+There is an excellent & very easy tuturial on basic pyGlet structure which is [available at this link](http://simeonfranklin.com/talk/pyglet/slides.html#slide-1), which you should work your way through. Unless you are a python expert, don't worry just yet about making the game suggested in the final slide of the tutorial. Work through the example below instead.
 
 Here is some code, call it pyGlet-drawCircles.py, that generates randomly placed circles. Note that the makeCircle function actually builds a lists of vertices, which pyGlet then "draws" by sequentially connecting lines between the vertices. The functions in the graphicsWindow class behave as follows:
 
@@ -65,9 +65,7 @@ There's a few things that you should try and do with this code:
 
 * Get it running in PyCharm
 
-* Figure out how to extend the code to draw more than three circles
-* 
-    here's a hint - think about populating drawList, and then looping over drawList, something like:
+* Figure out how to extend the code to draw more than three circles... hint - think about populating drawList, and then looping over drawList, something like:
 ```
     for element in drawList:
         glColor3f(1,1,0)
@@ -77,13 +75,16 @@ There's a few things that you should try and do with this code:
 
     1. Straight lines
     
-    2. A circular trajectory
+    2. Circular trajectories
     
     3. Harmonically, based on how far the circle is displaced from the center of the graphics window
     
 *  Split out the makeCircle() function so that it lives in a new file called 'simpleShapes.py', and figure out how to construct a module so that can run pyGlet-draw.py by simply including a line which reads "import simpleShapes" 
 
-* Change simpleShapes.py so that rather than calling the makeCircle() function, you have a circle class, which should include data (radius, center positions, and vertex lists), as well as functions (to update position). Now you should be able to modify pyGlet-draw.py to instantiate various circle objects (e.g. circle1 = circle(...)). The position of a circle (e.g., circle1) can then be updated using a command like "circle1.updatePosition()"
+* Change simpleShapes.py so that rather than calling the makeCircle() function, you have a circle class, which should include data (radius, center positions, and vertex lists), as well as functions (to update position). Now you should be able to modify pyGlet-draw.py to instantiate various circle objects (e.g. circle1 = circle(...)). The position of a circle (e.g., circle1) can then be updated using a command like "circle1.updatePosition()"... If you're unsure on how to make classes, don't worry, we'll be discussing them in further detail.
  
 * If you're really motivated, try and write a new class that draws a new shape (e.g., triangle, square, octagon, ellipse, rectangle, etc.)
+
+
+
 
