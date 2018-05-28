@@ -25,12 +25,6 @@ Tuesday 29th May (DRG)
       * [Python tutorial](https://docs.python.org/3/tutorial/index.html) (use as a reference, not an actual tutorial) 
       * Already a python expert? Try some [Project Euler](https://projecteuler.net/) challenges.    
 
-* 10:45 Getting Started 
-    * [A Python Framework for Simple Game Mechanics](outlines/pyGlet-GameMechanics.md)
-    * [A more detailed look at debugging using PyCharm](outlines/pyCharm.md)
-    * [Basic Python features](outlines/python-outline.md)
-    * [Basic Principles of Object-Oriented Programming](python/4_object_orientation.md)
-
 * 11:30 coffee
 * 13:00 Lunch
 * 14:00 [Scipy and NumPy](python/5_numpy.md)
