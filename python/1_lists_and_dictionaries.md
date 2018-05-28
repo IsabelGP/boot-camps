@@ -1,119 +1,138 @@
 
 # Containers - Lists and Dictionaries
 
-First, lets start python. We will do everything using ipython, which provides a nice interactive python shell. We start ipython using the command
+Writing a program involves creating and manipulating data, which are held in variables. For example, we've used variables before
 
-    $ ipython
+    $ meaningOfLife = 42.0
+    $ mysticalSign = 19.0
+    $ keyToTheMeaningOfLife = meaningOfLife/mysticalSign
+    $ print keyToTheMeaningOfLife
+    2.2105
 
-Writing a program involves creating and manipulating data, which are held in variables. For example, you have probably used strings and numbers, for example
-
-    $ a = 42
-    $ b = 65
-    $ a + b
-    107
-
-prints out 107. Equally
+Another example of using variables could also involve strings. For example:
 
     $ a = "hello "
     $ b = "world"
-    $ a + b
-    'hello world'
+    $ print a + b
+    hello world
 
-prints out "hello world" (note we had to add an extra space after "hello").
-
-Typing and working with variables one-by-one like this is easy, but would be very time-consuming and prone to error if you have a program that uses thousands or millions of variables. Containers allow you to group variables together. The simplest container is a list.
+Note here how we had to add an extra space after "hello". Typing and working with variables one-by-one like this is easy, but would be very time-consuming and prone to error if you have a program that uses thousands or millions of variables. Containers allow you to group variables together. The simplest container is a list.
 
 ## Lists
 
-Lists, which are also called arrays or vectors, provide a simple list of variables. In python, we create lists using square brackets
+Lists, which are also called arrays or vectors, provide a simple list of variables. In python, we create lists using square brackets. For example
 
-    $ a = [ "cat", "dog", "horse", "fish" ]
+    $ testList = [14, 7, 28, 42]
 
-This has created a list containing four strings, "cat", "dog", "horse" and "fish". To access each item we also use square brackets
+would initialize a list with four elements. To access items in the list we use square brackets:
 
-    $ a[0]
-    'cat'
+    $ print testList[0]
+    14
+and
 
-prints "cat", as it accesses the first item in the list.
+    $ print testList[1]
+    7
 
-    $ a[1]
-    'dog'
+and
 
-prints "dog", as it accesses the second item in the list. As you can probably guess, a[3] will print "fish" as it accesses the fourth item
+    $ print testList[2]
+    28
 
-    $ a[3]
-    'fish'
+and
 
-In python, you can also work from the back of the list, e.g.
+    $ print testList[3]
+    42
 
-    $ a[-1]
-    'fish'
+Note that element "0" of the list in fact denotes the first element of the list. In python, you can also work from the back of the list
 
-prints the last item,
+    $ print testList[-1]
+    42
 
-    $ a[-2]
-    'horse'
+printing the last item.
 
-prints the second to last item etc. If you access an item that doesn't exist, then you get an error.
+    $ print testList[-2]
+    28
 
-    $ a[4]
+printing the second to last item, etc. If you access an item that doesn't exist, then you get an error.
+
+    $ print testList[4]
 
 gives an "index out of range" error.
 
 To get the number of items in the list, we have to use "len"
 
-    $ len(a)
+    $ print len(testList)
     4
 
-This prints "4", as we have four things in the list.
+as we have four things in the list.
 
 We can also change the value of an item by setting it equal to a new value
 
-    $ a[0] = 20
-    $ a
-    [20, 2, 3, 4]
+    $ testList[0] = 20
+    $ print testList
+    [20, 7, 28, 42]
+
+The previous code we looked at (pyGlet-drawLine.py), uses some lists. For example
+```
+self.center1 = [self.width / 2, self.height / 2]    # initialize the centre of the line
+```
+initializes a list with two elements, self.width/2 and self.height/2, where self.width & self.height are variables that we specify in code.
 
 ### Functions of a List
 
-A list comes with lots of useful abilities. You can see the list of abilities in ipython by pressing tab
+A list comes with lots of useful abilities. You can see the list of abilities in PyCharm by declaring a list as follows
+```
+testList = []
+```
+and then typing
+```
+testList.
+```
+PyCharm should bring up an auto-complete menu, which includes all the functions that are available for lists. Alternatively, you could also type a line in your code which reads
+```
+help(testList) 
+```
+Put a breakpoint at the line, step over it, and then inspect the console output. Either way you use - auto-complete or help(), you will see that the available functions for a list are as follows:
+```
+    append    count    extend    index    insert    pop    remove    reverse   sort
+```
+The abilities are provided by functions, for example "append". There's a good dicussion of [how to use these functions at this link](https://www.digitalocean.com/community/tutorials/how-to-use-list-methods-in-python-3). One function which we will use extensively is "append", which is used to add items onto the end of the list. For example
+```
+testList=[]
+```
+declares a blank list. 
+```
+testList.append(27)
+```
+adds "27" to the list, i.e., 
 
-    $ a.[TAB]
-    a.append   a.count    a.extend   a.index    a.insert   a.pop      a.remove   a.reverse  a.sort
+    $ print testList
+    [27]
 
-The abilities are provided by functions, for example "append". We can see what the function does by using python's help
+We can append as many values as we want.
 
-    $ help(a.append)
-    
-    Help on built-in function append:
+    $ testList.append(42)
+    $ print testList
+    [27,42]
 
-    append(...)
-        L.append(object) -- append object to end
+We can also remove values from a list. For example
 
-So append is used to add items onto the end of the list. For example
+    $ testList.remove(42)
 
-    $ a.append("gerbil")
-    $ a
-    ['cat', 'dog', 'horse', 'fish', 'gerbil']
-
-has added the string "gerbil" onto the end of the list. There are other functions, e.g.
-
-    $ a.remove("dog")
-    $ a
-    ['cat', 'horse', 'fish', 'gerbil']
-
-has removed the string "dog".
+will remove the value 42 from testList.
 
 ### Looping over a list
 
 You can iterate over all items in a list using a loop, for example
 
-    $ for i in range(0, len(a)):
-    $     print( a[i] )
+    $ testList = [14, 7, 28, 42]
+    $ for i in range(0, len(testList)):
+    $     print( testList[i] )
     
-    cat
-    horse
-    fish
-    gerbil
+    14
+    7
+    28
+    42
 
 This can be useful, for example, for adding together two sets of numbers;
 
@@ -156,57 +175,56 @@ You can nest lists as deeply as you want, creating a multidimensional matrix.
 
 ## Dictionaries (A.K.A Associative Arrays)
 
-Lists let you store lots of variables, and to access them by their location in the list. However, there are lots of times when you want to store lots of variables, but access them using more complex relationships. One example is a dictionary (which are often called 'associative arrays' in other programming languages). These let you store variables and access them using a key. 
+Associative Arrays (which are called 'dictionaries in python) are one of the really nice features of many object oriented languages. For certain tasks, they make your life a lot easier. Whereas lists let you store lots of variables, accessing them requires you to know their location in the list. However, there are lots of times when you want to store lots of variables, but access them using more complex relationships. Associative arrays let you store variables and access them using a key. 
 
 Dictionaries in python are represented using curly brakets
 
-    $ a = { "cat" : "mieow", "dog" : "woof", "horse" : "neigh" }
+    $ a = { "cat" : "meeow", "dog" : "woof", "horse" : "neigh" }
 
-Here I am storing four key-value pairs. I am storing the value "mieow", and saying that this is accessed using the key "cat". 
+Here I am storing four key-value pairs. I am storing the value "meeow", and saying that this is accessed using the key "cat". 
 
-    $ a["cat"]
-    'mieow'
+    $ print a["cat"]
+    'meeow'
 
 Similarly, I have stored the value "woof", and have said that this is accessed using the key "dog"
 
-    $ a["dog"]
+    $ print a["dog"]
     'woof'
 
-Like lists, dictionaries also come with a lot of useful functions, which we can show using the TAB key in ipython
+Like lists, dictionaries also come with a lot of useful functions, which we can show using the autocomplete functionality in PyCharm 
 
-    $ a.[TAB]
-    a.clear       a.get         a.iteritems   a.keys        a.setdefault  a.viewitems   
-    a.copy        a.has_key     a.iterkeys    a.pop         a.update      a.viewkeys    
-    a.fromkeys    a.items       a.itervalues  a.popitem     a.values      a.viewvalues  
+    $ a.
 
-and that we can get help with using help()
+or else via the help function.
 
-    $ help(a.keys)
-    Help on built-in function keys:
+    $ help(a)
 
-    keys(...)
-        D.keys() -> list of D's keys
+Either way we can inspect the functions available for processing data in lists:
 
-The keys() function thus returns a list of all of the keys
+    clear       get         iteritems   keys        setdefault  viewitems   
+    copy        has_key     iterkeys    pop         update      viewkeys    
+    fromkeys    items       itervalues  popitem     values      viewvalues  
 
-    $ a.keys()
+There's a nice overview of [dictionary methods at this link] (https://docs.python.org/2/library/stdtypes.html#mapping-types-dict). One particularly useful method is the keys() function, which returns a list of all of the keys
+
+    $ print a.keys()
     ['horse', 'dog', 'cat']
 
 while the values() function returns the list of all of the values
 
-    $ a.values()
+    $ print a.values()
     ['neigh', 'woof', 'mieow']
 
 We can change items in the dictionary by setting them equal to a new value
 
     $ a["dog"] = "bark"
-    $ a
+    $ print a
     {'cat': 'mieow', 'dog': 'bark', 'horse': 'neigh'}
 
 We can also use this to add new items to the dictionary
 
     $ a["fish"] = "bubble"
-    $ a
+    $ print a
     {'cat': 'mieow', 'dog': 'bark', 'fish': 'bubble', 'horse': 'neigh'}
 
 ### Looping over a dictionary
@@ -215,27 +233,34 @@ As the keys() function returns the list of all keys in a dictionary, the best wa
 
     $ keys = a.keys()
     $ for i in range(0,len(keys)):
-    $     print("%s == %s" % (keys[i], a[keys[i]]))
+    $     print keys[i], " == ", a[keys[i]]
     
     horse == neigh
     dog == bark
     fish == bubble
     cat == mieow
 
-You could print them out in alphabetical order by using the sort() function of a list to sort the keys before looping
+You could print them out in alphabetical order by using the sort() function of a list to sort the keys before looping. Have a look at the methods available for manipulating the keys by again using either PyCharm's autocomplete
 
-    $ keys.[TAB]
-    keys.append   keys.extend   keys.insert   keys.remove   keys.sort     
-    keys.count    keys.index    keys.pop      keys.reverse  
+    $ keys.
+    
+or else via the help function
+
+    $ help(keys)
+ 
+Either way, we see the following methods
+    
+    append   extend   insert   remove   sort     
+    count    index    pop      reverse  
 
     $ keys.sort()
-    $ keys
+    $ print keys
     ['cat', 'dog', 'fish', 'horse']
 
     $ for i in range(0,len(keys)):
     $     print("%s == %s" % (keys[i], a[keys[i]]))
 
-    cat == mieow
+    cat == meeow
     dog == bark
     fish == bubble
     horse == neigh
@@ -245,13 +270,13 @@ You could print them out in alphabetical order by using the sort() function of a
 Like lists, dictionaries can contain any type of data, and you can also nest dictionaries and lists inside each other.
 
     $ a = { "cat" : 5, "dog" : ["walk", "feed", "sleep"], "fish" : {"type" : "goldfish"} }
-    $ a["cat"]
+    $ print a["cat"]
     5
-    $ a["dog"]
+    $ print a["dog"]
     ['walk', 'feed', 'sleep']
-    $ a["dog"][1]
+    $ print a["dog"][1]
     'feed'
-    $ a["fish"]["type"]
+    $ print a["fish"]["type"]
     'goldfish'
 
 You can also create the above dictionary item-by-item
@@ -260,7 +285,7 @@ You can also create the above dictionary item-by-item
     $ a["cat"] = 5
     $ a["dog"] = [ "walk", "feed", "sleep" ]
     $ a["fish"] = { "type" : "goldfish" }
-    $ a
+    $ print a
     {'cat': 5, 'dog': ['walk', 'feed', 'sleep'], 'fish': {'type': 'goldfish'}}
 
 
@@ -269,11 +294,11 @@ You can also create the above dictionary item-by-item
 Finally, we will finish this session by noting that strings are actually lists. A string is a list container of letters.
 
     $ a = "hello world"
-    $ len(a)
+    $ print len(a)
     11
-    $ a[0]
+    $ print a[0]
     'h'
-    $ a[-1]
+    $ print a[-1]
     'd'
 
 We can loop over all letters in a string using
@@ -303,11 +328,11 @@ You can also create a string from a list of letters. For this, you need to impor
 
     $ import string
     $ a = ['h', 'e', 'l', 'l', 'o']
-    $ a
+    $ print a
     ['h', 'e', 'l', 'l', 'o']
 
     $ s = string.join(a)
-    $ s
+    $ print s
     'h e l l o'
 
 Note that string.join has added a space between each letter. Using help() we can see how to remove this space
@@ -328,58 +353,73 @@ Note that string.join has added a space between each letter. Using help() we can
     $ s
     'hello'
 
-## Exercise
+Let's return to the simple line drawing program we looked at earlier. The script is available as [drawTriangle.py](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/drawTriangle.py). 
 
-If you haven't already, clone this repository to somewhere appropriate:
+        # now we will calculate the list of vertices required to draw the triangle
+        numberOfVertices = 3        # specify the number of vertices we need for the shape
+        radius = 20                 # specify the radius of each point from the center
+        xcenter = self.center1[0]   # specify xcenter
+        ycenter = self.center1[1]   # specify ycenter
+        vertices = []  # initialize a list of vertices
 
-    $ git clone --branch 2015-05-oxford --single-branch  https://github.com/mikeoconnor0308/boot-camps.git
-    $ cd boot-camps/Python
+        angle = 0.0               # specify the first vertex of the triangle (x,y values)
+        x = radius * cos(angle) + xcenter
+        y = radius * sin(angle) + ycenter
+        vertices.append(x)  # append the x value to the vertex list
+        vertices.append(y)  # append the y value to the vertex list
+
+        angle = (2.0 / 3.0) * pi  # specify the second vertex of the triangle (x,y values)
+        x = radius * cos(angle) + xcenter
+        y = radius * sin(angle) + ycenter
+        vertices.append(x)  # append the x value to the vertex list
+        vertices.append(y)  # append the y value to the vertex list
+
+        angle = (4.0 / 3.0) * pi  # specify the third vertex of the triangle (x,y values)
+        x = radius * cos(angle) + xcenter
+        y = radius * sin(angle) + ycenter
+        vertices.append(x)  # append the x value to the vertex list
+        vertices.append(y)  # append the y value to the vertex list
+
+        # convert the vertices list to pyGlet vertices format
+        vertexList = pyglet.graphics.vertex_list(numberOfVertices, ('v2f', vertices))
 
 ### Exercise 1a
 
-Here is a script, [1a/encode.py](1a/encode.py) which contains a dictionary for converting the alphabet to Morse code, and a string that must be converted (quite quickly!).
+For the purposes of this exercise, we will focus on the code snippet above. There's lots of redundant code in this function, which we can tighten up using what we've learned about lists. Your job is to use PyCharm and its debugging facilities to step through this code, figure out what it's doing, and then refactor it utilizing what you've learned about lists and loops. You should be able to make significant improvements, cleaning up the rendundancy and making much more compact code which is more elegant and less error-prone. This is the sort of task that one often finds oneself having to carry out in the course of a software dev project: explicit code can often be cleaned up and made more transparent through the canny use of lists and dictionaries.
 
-    letter_to_morse = {'a':'.-', 'b':'-...', 'c':'-.-.', 'd':'-..', 'e':'.', 'f':'..-.',
-                       'g':'--.', 'h':'....', 'i':'..', 'j':'.---', 'k':'-.-', 'l':'.-..', 'm':'--',
-                       'n':'-.', 'o':'---', 'p':'.--.', 'q':'--.-', 'r':'.-.', 's':'...', 't':'-',
-                       'u':'..-', 'v':'...-', 'w':'.--', 'x':'-..-', 'y':'-.--', 'z':'--..',
-                       '0':'-----', '1':'.----', '2':'..---', '3':'...--', '4':'....-',
-                       '5':'.....', '6':'-....', '7':'--...', '8':'---..', '9':'----.',
-                       ' ':'/' }
-
-    message = "SOS We have hit an iceberg and need help quickly"
-
-Use what you have learned about lists and dictionaries to loop through each letter in the message, look-up the corresponding Morse code for that letter, and join the result together to create a string that contains the Morse code that will be transmitted to save the ship. Note that the dictionary contains only lowercase letters, so you will need to use "TAB" and help() to find a function to convert uppercase letters to lowercase.
-
-If you are really stuck, then there is an example completed script available to read in [1a/example/encode.py](1a/example/encode.py).
+If you are really stuck, then there is an example completed script available to read in [1a/drawTriangle-refactor1.py](1a/drawTriangle-refactor1.py).
 
 ### Exercise 1b
 
-You have just received the Morse code message in the script [1b/decode.py](1b/decode.py). You need to decode this message back to English.
+Now we are going to play around a little bit with dictionaries and nesting. The particular bit of code which we are going to focus on is the one that specifies the color of the object that is drawn
 
-    letter_to_morse = {'a':'.-', 'b':'-...', 'c':'-.-.', 'd':'-..', 'e':'.', 'f':'..-.', 
-                       'g':'--.', 'h':'....', 'i':'..', 'j':'.---', 'k':'-.-', 'l':'.-..', 'm':'--', 
-                       'n':'-.', 'o':'---', 'p':'.--.', 'q':'--.-', 'r':'.-.', 's':'...', 't':'-',
-                       'u':'..-', 'v':'...-', 'w':'.--', 'x':'-..-', 'y':'-.--', 'z':'--..',
-                       '0':'-----', '1':'.----', '2':'..---', '3':'...--', '4':'....-',
-                       '5':'.....', '6':'-....', '7':'--...', '8':'---..', '9':'----.',
-                       ' ':'/' }
+    glColor3f(1, 1, 0)  # specify colors
 
-    message = "... --- ... / .-- . / .... .- ...- . / .... .. - / .- -. / .. -.-. . -... . .-. --. / .- -. -.. / -. . . -.. / .... . .-.. .--. / --.- ..- .. -.-. -.- .-.. -.--"
+This code specifies in OpenGL RGB format what color OpenGL should use for the lines it's about to draw. Each entry is a float ('3f' means 'three floats') specifies the amount of R, the amount of G, and the amount of B, where the possible value of each entry can range from 0 to 1. You can [construct lots of different colors using this simple format](http://prideout.net/archive/colors.php#Floats).
 
-Use what you have learned about lists and dictionaries to loop through Morse letters in the Morse code message, and convert them back to English. Note that "letter_to_morse" is a dictionary that goes from letters to Morse code. You will need to first invert this dictionary to let you look up the letter from the Morse code (if you need help, look at [1b/example/invert.py](1b/example/invert.py)). Morse code letters are separated by spaces. Use ipython TAB and help() to find a function that will split the message into letters.
+What we're going to do now is use a dictionary to make the arguments to glColor3f() more human readable. For example, it would enable us to choose our aesthetic a lot quicker if we could specify a color by entering code that looked something like
 
-If you are really stuck, then there is an example completed script available to read in [1b/example/decode.py](1b/example/decode.py).
+    lineColor = 'hotpink'
+    glColor3f(color[lineColor][0], color[lineColor][1], color[lineColor][2]) # specify colors
 
-### Extension
+As you can see, when we want to change colors, we only have to change the value of a single variable. So for example if we want blue (or red or green or yellow or sienna or whatever), we simply have to make a small modification along the lines of:
 
-If you have time, combine your completed "encode.py" and "decode.py" scripts into a single script that converts a message from English to Morse code, and then converts it back again into English.
+    lineColor = 'blue'
 
-## Version Control
+Your job now is to formulate a nested structure of dictionaries/lists, which allow us to specify colors as I've written above, so that we can change color by simply changing a single word. To do this, you will have to declare the relevant data structures in a location that enables it to be seen "globally" - i.e., acknowledged by everything in our code. We'll learn more about this as we go on, but for the moment I'm going to help you: the location when working with PyGlet should be as follows:
 
-When you have finished, commit all of your changes to your Git repository.
+    from random import randint
 
-    $ git commit -am "...commit message..."
-    $ git push
+    ...YOUR CODE HERE...
 
-# [Up](python_and_good_programming_practice.md) [Next](2_functions_and_modules.md)
+    class graphicsWindow(pyglet.window.Window):
+
+Once you've figured out how to do this, play around with a few different colors for your triangle. It should be as easy as simply editing the string which indicates color. Feel free to get creative. [The link at this page gives lots of different examples of various colors in '3f' format](http://prideout.net/archive/colors.php#Floats). If you are really stuck, then there is an example completed script available to read in [1b/drawTriangle-refactor2.py](1b/drawTriangle-refactor2.py).
+
+### Exercise 1c
+
+See if you can extend your code to draw more than one triangle, each with a different color and with its own center. So you'll need to modify \__init()__ and update() to include a new data structure self.center2, and then you'll probably need to copy & paste some code in on_draw() in order to tell pyGlet to draw a second list of vertices
+
+If you are hopelessly stuck, then there is an example script available in [1c/drawTwoTriangles.py](1c/drawTwoTriangles.py)
+
+# [Next](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/2_functions_and_modules.md)
