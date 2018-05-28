@@ -17,9 +17,9 @@ Tuesday 29th May (DRG)
 * 11:00 Learning more about Python
     * [A Python Framework for Simple Game Mechanics](Outlines/I-pyGlet-GameMechanics.md)
     * Basic Python features
-      * [containers, lists, and dictionaries](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/1_lists_and_dictionaries.md)
-      * [functions & modules](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/2_functions_and_modules.md)
-      * [documenting Code](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/3_documenting_code.md)
+      * [containers, lists, and dictionaries](Python/1_lists_and_dictionaries.md)
+      * [functions & modules](Python/2_functions_and_modules.md)
+      * [documenting Code](Python/3_documenting_code.md)
     * [Basic Principles of Object-Oriented Programming](Python/4_object_orientation.md)
     * Other Potentially useful stuff 
       * [Python tutorial](https://docs.python.org/3/tutorial/index.html) (use as a reference, not an actual tutorial) 
