@@ -205,7 +205,7 @@ Either way we can inspect the functions available for processing data in lists:
     copy        has_key     iterkeys    pop         update      viewkeys    
     fromkeys    items       itervalues  popitem     values      viewvalues  
 
-There's a nice overview of [dictionary methods at this link] (https://docs.python.org/2/library/stdtypes.html#mapping-types-dict). One particularly useful method is the keys() function, which returns a list of all of the keys
+There's a nice overview of [dictionary methods at this link](https://docs.python.org/2/library/stdtypes.html#mapping-types-dict). One particularly useful method is the keys() function, which returns a list of all of the keys
 
     $ print( a.keys() )
     ['horse', 'dog', 'cat']
