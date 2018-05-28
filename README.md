@@ -34,7 +34,7 @@ Tuesday 29th May (DRG)
 
 Wednesday 30th May (LAB, MOC, SA, DRG)
 
-* 10:00 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](outlines/II-pyGlet-GameMechanics.md)
+* 10:00 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](Outlines/II-pyGlet-GameMechanics.md)
 * 11:15 coffee
 * 11:30 Version Control 
     * [Part 1: Basic git - structure & commands](outlines/git-outline.md#git-and-version-control) - LAB
