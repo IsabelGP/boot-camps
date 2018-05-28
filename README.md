@@ -29,7 +29,7 @@ Tuesday 29th May (DRG)
 * 13:00 Lunch
 * 14:00 [Scipy and NumPy](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/5_numpy.md)
 * 15:15 Coffee 
-* 15:30 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](outlines/II-pyGlet-GameMechanics.md)
+* 15:30 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](Outlines/II-pyGlet-GameMechanics.md)
 * 17:30 Finish 
 
 Wednesday 30th May (LAB, MOC, SA, DRG)
