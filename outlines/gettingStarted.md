@@ -13,7 +13,7 @@ $ conda activate py36
 $ pip install pyglet 
 ```
 3. Install the community edition of [PyCharm](https://www.jetbrains.com/pycharm/)
-4. be sure to point your PyCharm interpreter to your local Anaconda py36 environment (mine for example lives at /anaconda/envs/py36/bin/python). More general instructions [can be found here](https://docs.continuum.io/anaconda/ide_integration#pycharm). If you want to learn more about the Anaconda environment and package management, have a look at the [Anaconda documentation](http://conda.pydata.org/docs/using/index.html).
+4. be sure to point your PyCharm interpreter to your local Anaconda py36 environment (for example, mine lives at /anaconda/envs/py36/bin/python). More general instructions [can be found here](https://docs.continuum.io/anaconda/ide_integration#pycharm). If you want to learn more about the Anaconda environment and package management, have a look at the [Anaconda documentation](http://conda.pydata.org/docs/using/index.html).
 
 ## Hello World
 
@@ -68,7 +68,7 @@ Major software development firms have shown (over and over again) that developer
 
 Different languages and platforms have their own IDE tools. For example, OSX developers writing in C++, C, iOS, or Objective C tend to use XCode, which is Apple's IDE. Microsoft developers writting in C++, C, or C# for Windows platforms often use Microsoft's Visual Studio IDE.
 
-One of the most popular IDEs for Python is called PyCharm - this is going to be our preferred way of writing python during this course. It's a little more complicated to get hello World going in an IDE like PyCharm, but it's totally worth it for lots of reasons. Follow the steps below to get going:
+One of the most popular IDEs for Python is called PyCharm - this is going to be our preferred way of writing python during this course. It's a little more complicated to set up a simple hello World program in an IDE like PyCharm, but it's totally worth it for lots of reasons. Follow the steps below to get going:
 
 1) make a directory called /helloTest
 2) open PyCharm

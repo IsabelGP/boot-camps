@@ -12,7 +12,7 @@ Tuesday 29th May (DRG)
 * 10:15 Getting Started with Python
     * [A simple Python Program](outlines/gettingStarted.md)
 * 10:45 A simple live demo for debugging in PyCharm (DRG)
-    * [this video is also a nice outline of how to debug in PyCharm](https://www.youtube.com/watch?v=BBPoInSOiOY)
+    * [This video also provides a nice outline of how to debug in PyCharm](https://www.youtube.com/watch?v=BBPoInSOiOY)
     
 * 11:00 Learning more about Python
     * [A Python Framework for Simple Game Mechanics](Outlines/I-pyGlet-GameMechanics.md)
