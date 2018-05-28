@@ -9,13 +9,28 @@ Lars Andersen Bratholm (LAB), Mike O'Connor (MOC), Silvia Amabilino (SA), David 
 Tuesday 29th May (DRG)
 
 * 10:00 Introduction and Overview
-* 10:15 Getting Started 
-    * [Hello World with Python](outlines/gettingStarted.md)
-    * A quick guided introduction to getting going with the PyCharm IDE
+* 10:15 Getting Started with Python
+    * [A simple Python Program](outlines/gettingStarted.md)
+* 10:45 A simple live demo for debugging in PyCharm (DRG)
+    * [this video is also a nice outline of how to debug in PyCharm](https://www.youtube.com/watch?v=BBPoInSOiOY)
+    
+* 11:00 Learning more about Python
+    * [A Python Framework for Simple Game Mechanics](Python/I-pyGlet-GameMechanics.md)
+    * Basic Python features
+      * [containers, lists, and dictionaries](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/1_lists_and_dictionaries.md)
+      * [functions & modules](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/2_functions_and_modules.md)
+      * [documenting Code](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/3_documenting_code.md)
+    * [Basic Principles of Object-Oriented Programming](Python/4_object_orientation.md)
+    * Other Potentially useful stuff 
+      * [Python tutorial](https://docs.python.org/3/tutorial/index.html) (use as a reference, not an actual tutorial) 
+      * Already a python expert? Try some [Project Euler](https://projecteuler.net/) challenges.    
+
+* 10:45 Getting Started 
     * [A Python Framework for Simple Game Mechanics](outlines/pyGlet-GameMechanics.md)
     * [A more detailed look at debugging using PyCharm](outlines/pyCharm.md)
     * [Basic Python features](outlines/python-outline.md)
     * [Basic Principles of Object-Oriented Programming](python/4_object_orientation.md)
+
 * 11:30 coffee
 * 13:00 Lunch
 * 14:00 [Scipy and NumPy](python/5_numpy.md)
