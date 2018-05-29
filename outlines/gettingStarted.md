@@ -2,6 +2,7 @@
 
 ## Setup
 1. Make sure you have python installed. I suggest you use [Anaconda for python 3.6](https://www.continuum.io/downloads).
+    * install Anaconda on your machine
     * Create a conda environment & install python 3.6
     * Then activate the conda environment
 ```
