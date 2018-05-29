@@ -17,7 +17,7 @@ class graphicsWindow(pyglet.window.Window):
         self.center1 = [self.width / 2, self.height / 2]    # initialize the centre of the triangle
 
     def update(self, dt):
-        print "Updating the center of the triangle"
+        print("Updating the center of the triangle")
         self.center1 = [self.width / 2 + randint(-200, 200), self.height / 2 + randint(-200, 200)]
 
     def on_draw(self):

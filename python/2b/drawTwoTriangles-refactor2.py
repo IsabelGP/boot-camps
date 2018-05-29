@@ -29,7 +29,7 @@ class graphicsWindow(pyglet.window.Window):
         colors.printAvailableColors()
 
     def update(self, dt):
-        print "Updating the center of the triangle"
+        print("Updating the center of the triangle")
         self.center1 = [self.width / 2 + randint(-200, 200), self.height / 2 + randint(-200, 200)]
         self.center2 = [self.width / 2 + randint(-200, 200), self.height / 2 + randint(-200, 200)]
 

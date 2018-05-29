@@ -26,7 +26,7 @@ class graphicsWindow(pyglet.window.Window):
             triangles[i].setVelocity(5+i,10+i)
 
     def update(self, dt):
-        # print "Updating the center of the triangle"
+        # print("Updating the center of the triangle")
         for i in range(0,len(triangles)):
             triangles[i].updateCoordinates(self.width, self.height )
 

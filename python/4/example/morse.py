@@ -52,7 +52,7 @@ if __name__ == "__main__":
     translator = MorseTranslator()
 
     while True:
-        print "Instruction (encode, decode, quit) :-> ",
+        print("Instruction (encode, decode, quit) :-> ", end = "")
 
         # Read a line from standard input
         line = sys.stdin.readline()
@@ -64,20 +64,20 @@ if __name__ == "__main__":
             # read the line to be encoded
             message = sys.stdin.readline().rstrip()
 
-            print "Message is '%s'" % message
-            print "Encoded is '%s'" % translator.encode(message)
+            print("Message is '%s'" % message)
+            print("Encoded is '%s'" % translator.encode(message))
 
         elif line == "decode":
             # read the morse to be decoded
             message = sys.stdin.readline().rstrip()
 
-            print "Morse is   '%s'" % message
-            print "Decoded is '%s'" % translator.decode(message)
+            print("Morse is   '%s'" % message)
+            print("Decoded is '%s'" % translator.decode(message))
 
         elif line == "quit":
-            print "Exiting..."
+            print("Exiting...")
             break
 
         else:
-            print "Cannot understand '%s'. Instruction should be 'encode', 'decode' or 'quit'." % line
+            print("Cannot understand '%s'. Instruction should be 'encode', 'decode' or 'quit'." % line)
 

@@ -8,10 +8,10 @@ color['sienna'] = [0.627, 0.322, 0.176]
 color['hotpink'] = [1.0, 0.412, 0.706]
 
 def printAvailableColors():
-    print '\tyellow'
-    print '\tblue'
-    print '\tred'
-    print '\tgreen'
-    print '\tsienna'
-    print '\thotpink'
+    print('\tyellow' )
+    print('\tblue'   )
+    print('\tred'    )
+    print('\tgreen'  )
+    print('\tsienna' )
+    print('\thotpink')
     

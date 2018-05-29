@@ -47,7 +47,7 @@ if __name__ == "__main__":
     encryptor = Encryptor()
 
     while True:
-        print "Instruction (encrypt, decrypt, quit) :-> ",
+        print("Instruction (encrypt, decrypt, quit) :-> ", end = "")
 
         # Read a line from standard input
         line = sys.stdin.readline()
@@ -59,19 +59,19 @@ if __name__ == "__main__":
             # read the line to be encoded
             message = sys.stdin.readline().rstrip()
 
-            print "Message is '%s'" % message
-            print "Encrypted is '%s'" % encryptor.encrypt(message)
+            print("Message is '%s'" % message)
+            print("Encrypted is '%s'" % encryptor.encrypt(message))
 
         elif line == "decrypt":
             # read the encoded message to be decoded
             message = sys.stdin.readline().rstrip()
 
-            print "Encrypted is '%s'" % message
-            print "Message is '%s'" % encryptor.decrypt(message)
+            print("Encrypted is '%s'" % message)
+            print("Message is '%s'" % encryptor.decrypt(message))
 
         elif line == "quit":
-            print "Exiting..."
+            print("Exiting...")
             break
 
         else:
-            print "Cannot understand '%s'. Instruction should be 'encrypt', 'decrypt' or 'quit'." % line
+            print("Cannot understand '%s'. Instruction should be 'encrypt', 'decrypt' or 'quit'." % line)
