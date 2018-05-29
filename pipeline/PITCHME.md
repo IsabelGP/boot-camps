@@ -8,8 +8,8 @@
 
 ---
 
-![Logo](./complexity.png)
+![Logo](/complexity.png)
 
----?image=./complexity.png&size=auto
+---?image=/complexity.png&size=auto
 
 ---
