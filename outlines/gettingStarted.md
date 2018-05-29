@@ -74,8 +74,11 @@ One of the most popular IDEs for Python is called PyCharm - this is going to be 
 2) open PyCharm
 3) On the Welcome screen, click Create New Project
 4) specify that the project should live in /helloTest
-5) be sure to choose the local anaconda python interpreter (py36) as your python interpreter. For example, mine lives at /anaconda/envs/py36/bin/python). More general instructions [can be found here](https://docs.continuum.io/anaconda/ide_integration#pycharm). If you want to learn more about the Anaconda environment and package management, have a look at the [Anaconda documentation](http://conda.pydata.org/docs/using/index.html).
-6) Click Create
+5) be sure to choose the local anaconda python interpreter (py36) as your python interpreter. For example, mine lives at /anaconda/envs/py36/bin/python). If you're unsure exactly where your anaconda py36 interpreter lives, it's easy to find out from witin the py36 environment by typing the following command:
+```
+$ which python
+```
+6) Navigate pyCharm to this directory, and then click "Create" from within PyCharm
 7) in the project explorer, right click the 'helloTest directory', and add a new file called 'hello.py'
 8) use the PyCharm text editor to fill 'hello.py' with the following:
 ```
@@ -96,7 +99,7 @@ Now we will run the code from within PyCharm. To do this, right click on 'hello.
 
 In the simple code we wrote above, the keyToTheMeaningOfLife is clearly very useful, but not very easy to use or reusable. For example, say we started up a business with a code-base that required us to calculate keyToTheMeaningOfLife for billions of customers worldwide based on some value of mysticalSign given to us by each customer. And say that calculating keyToTheMeaningOfLife was a little bit more complicated than simple division. Calculating keyToTheMeaningOfLife would rapidly become unsustainable: we would have to carry out all sorts of edits, copying and pasting our code every time we need to calculate meaningOfLife within our code-base, potentially based on some different mysticalSign or even meaningOfLife values. You can see how this would get really tedious, and ultimately hurt our profit margins.
 
-Functions provide a way of packaging code into reusable and easy-to-use components. We can turn our keyToTheMeaningOfLife by defining a function - let's call it meaningOfLifeCalculator. To define such a function, we write
+Functions provide a way of packaging code into reusable and easy-to-use components. We can easily obtain our keyToTheMeaningOfLife by defining a function - let's call it meaningOfLifeCalculator. To define such a function, we write
 ```
 def meaningOfLifeCalculator(meaning, sign):
     key = meaning/sign
