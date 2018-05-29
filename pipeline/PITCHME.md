@@ -6,16 +6,8 @@
 ### Limiting model complexity
 ### Optimizing out of sample performance
 
----?image=/complexity.png&size=auto
-
----
-
-![logo](/complexity.png)
-
 ---
 
 ![logo](/pipeline/complexity.png)
 
 ---
-
-!complexity.png
