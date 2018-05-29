@@ -50,7 +50,7 @@ Wednesday 30th May (LAB, MOC, SA, DRG)
     * SA  - Machine learning potential energy surfaces
     * MOC - Machine learning hand pose for interactive molecular simulation in VR
 * 16:30 coffee
-* 16:45 The data science pipeline [slides](presentations/data_science.pdf) - LAB
+* 16:45 The data science pipeline [slides](pipeline/slides.md) - LAB
     * [jupyter notebook](https://github.com/RobertArbon/pipeline_example/blob/master/Data%20science%20pipeline.ipynb)
 * 17:45 Pub. Students should take this opportunity to organize themselves into their project groups
 
