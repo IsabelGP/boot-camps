@@ -1,6 +1,6 @@
 # Simple Game Mechanics in Python
 
-In this section, you will explore some simple game mechanics available in Python using [pyGlet](https://bitbucket.org/pyglet/pyglet/wiki/Home), which should be available in Anaconda.
+In this section, you will explore some simple game mechanics available in Python using [pyGlet](https://bitbucket.org/pyglet/pyglet/wiki/Home), which you should already have installed using pip.
 
 pyGlet is a very basic 2d game engine. At this stage, don't worry about all of the details of how it works. As we progress, you will have the opportunity to understand in depth what the various bits are doing. For the moment, we are going to focus on a simple bit of code (call it drawTriangle.py) which draws an equilaterial triangle whose center point is random. Note that the makeTriangle function works by building an ordered list of (x,y) vertices. pyGlet then "draws" by placing connecting lines between the vertices. 
  
@@ -80,4 +80,5 @@ See if you can start to make some guesses as to what the code is doing, in parti
 * on_draw()
 
 In what follows, we will use this simple triangle drawing code to learn about different aspects of python.
+
 

@@ -38,7 +38,7 @@ you get
         colors
 
     FILE
-        /Users/glowacki/Google Drive/hackathon/hackathon-2017/colors.py
+        /Users/glowacki/Google Drive/hackathon/hackathon-2018/colors.py
 
     DATA
         color = {'blue': [0.0, 0.0, 1.0], 'green': [0.0, 1.0, 0.0], 'hotpink':...
@@ -91,7 +91,7 @@ We now get better documentation when using help()
         colors - colors is a simple module for creating a color dictionary
 
     FILE
-        /Users/glowacki/Google Drive/hackathon/hackathon-2017/colors.py
+        /Users/glowacki/Google Drive/hackathon/hackathon-2018/colors.py
 
     FUNCTIONS
         printAvailableColors()

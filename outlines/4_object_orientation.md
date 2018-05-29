@@ -5,7 +5,7 @@ You have now learned how to package up your code into re-usable, documented func
 
 One reason is that modules don't protect their data very well -i.e., other people (like yourself several months after you've written a module) have a habit of re-using your code in the wrong, or in unexpected ways...
 
-As an example, lets imagine someone using code in the [colors.py](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/colors.py) module. It would be really easy for somebody to write something like the following from somewhere in the pyglet routines:
+As an example, lets imagine someone using code in the [colors.py](..python/2b/colors.py) module. It would be really easy for somebody to write something like the following from somewhere in the pyglet routines:
 
     colors.color['blue']=[0.5,0.5,0.5]
 
@@ -15,7 +15,7 @@ This will turn into grey an entry which we had intended to be 'blue'. Or they co
 
 where now they've assigned the tag 'blue' to a color that is actually red! The problem in both of these examples is that the "colors" dictionary is visible, and anybody can change its value whenever they want. This might seem like a good thing, but in complex code projects, this is the sort of thing that can lead to hard-to-find and extremely subtle bugs that can drive you mad.
  
-Another problem with modules and functions is that they sometimes don't reflect the structure of our code very well. For example, in our [drawTwoTriangles-refactor2.py](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/drawTwoTriangles-refactor2.py) code, there's a sense in which the triangles don't really "exist" as enduring data structures. At each pyglet update, we simply call the function to generate some random coordinates, and then formulate a vertex list which is then drawn. In fact, each of our trianges are characterized by some properties. For example, any given object which has the properties of an equilateral triangle should be minimally characterized by:
+Another problem with modules and functions is that they sometimes don't reflect the structure of our code very well. For example, in our [drawTwoTriangles-refactor2.py](../python/2b/drawTwoTriangles-refactor2.py) code, there's a sense in which the triangles don't really "exist" as enduring data structures. At each pyglet update, we simply call the function to generate some random coordinates, and then formulate a vertex list which is then drawn. In fact, each of our trianges are characterized by some properties. For example, any given object which has the properties of an equilateral triangle should be minimally characterized by:
 * a color
 * an id (e.g., the 'first' or 'second' triangle; we could give them more exotic names if we wanted - maybe "hydrogenAtom" & "heliumAtom")
 * an x & y position
@@ -121,7 +121,7 @@ The constructor takes as input the data which we pass in, and then defines varia
 
 An instantiation of a particular class is called an object. We can construct as many instances (objects) of a class as we want, and each will have its own "self" and its own set of hidden variables. 
 
-So, how do we use the triangleClass in practice - e.g., in our [drawTwoTriangles-refactor2.py](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/drawTwoTriangles-refactor2.py) code? Let's have a look
+So, how do we use the triangleClass in practice - e.g., in our [drawTwoTriangles-refactor2.py](../python/2b/drawTwoTriangles-refactor2.py) code? Let's have a look
 
 First we must make drawTwoTriangles-refactor2.py aware of our class definition:
 
