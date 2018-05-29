@@ -9,9 +9,10 @@
 $ conda create -n py36 python=3.6 anaconda
 $ source activate py36
 ```
-2. you should then [pip install pyglet](https://bitbucket.org/pyglet/pyglet/wiki/Download)
+2. you should then install [pyglet](https://bitbucket.org/pyglet/pyglet/wiki/Download) (we've noted some bugs with the latest 
+issue of pyglet when debugging in PyCharm, so for the purposes of this workshop we will use pyglet version 1.2.4)
 ```
-$ pip install pyglet 
+$ pip install pyglet==1.2.4
 ```
 3. Install the community edition of [PyCharm](https://www.jetbrains.com/pycharm/)
 
