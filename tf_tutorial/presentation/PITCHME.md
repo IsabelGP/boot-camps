@@ -9,6 +9,5 @@
 
 ![classification](/tf_tutorial/img/classification.png)
 
----
+---?image=tf_tutorial/img/vae-sample.png&size=auto 50
 
-![vae](/tf_tutorial/img/vae-sample.png =50x)
