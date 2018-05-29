@@ -23,4 +23,5 @@ Cross-validation
 ---
 
 Classification of digits
+
 ![digits](/pipeline/digits.png)
