@@ -15,26 +15,26 @@ Tuesday 29th May (DRG)
     * [This video also provides a nice outline of how to debug in PyCharm](https://www.youtube.com/watch?v=BBPoInSOiOY)
     
 * 11:00 Learning more about Python
-    * [A Python Framework for Simple Game Mechanics](Outlines/I-pyGlet-GameMechanics.md)
+    * [A Python Framework for Simple Game Mechanics](outlines/I-pyGlet-GameMechanics.md)
     * Basic Python features
-      * [containers, lists, and dictionaries](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/1_lists_and_dictionaries.md)
-      * [functions & modules](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/2_functions_and_modules.md)
-      * [documenting Code](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/3_documenting_code.md)
-    * [Basic Principles of Object-Oriented Programming](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/4_object_orientation.md)
+      * [containers, lists, and dictionaries](python/1_lists_and_dictionaries.md)
+      * [functions & modules](python/2_functions_and_modules.md)
+      * [documenting Code](python/3_documenting_code.md)
+    * [Basic Principles of Object-Oriented Programming](python/4_object_orientation.md)
     * Other Potentially useful stuff 
       * [Python tutorial](https://docs.python.org/3/tutorial/index.html) (use as a reference, not an actual tutorial) 
       * Already a python expert? Try some [Project Euler](https://projecteuler.net/) challenges.    
 
 * 11:30 coffee
 * 13:00 Lunch
-* 14:00 [Scipy and NumPy](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/5_numpy.md)
+* 14:00 [Scipy and NumPy](python/5_numpy.md)
 * 15:15 Coffee 
-* 15:30 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](Outlines/II-pyGlet-GameMechanics.md)
+* 15:30 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](outlines/II-pyGlet-GameMechanics.md)
 * 17:30 Finish 
 
 Wednesday 30th May (LAB, MOC, SA, DRG)
 
-* 10:00 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](Outlines/II-pyGlet-GameMechanics.md)
+* 10:00 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](outlines/II-pyGlet-GameMechanics.md)
 * 11:15 coffee
 * 11:30 Version Control 
     * [Part 1: Basic git - structure & commands](outlines/git-outline.md#git-and-version-control) - LAB
@@ -87,7 +87,7 @@ commands:
 before following [these instructions](setup/README.md).
 
 You also need to create a free individual account on 
-[BitBucket](https://bitbucket.org/account/signup/). Make sure 
+[GitHub](https://github.com/join). Make sure 
 you know your username and password when you arrive
 
 We recommend that you to work through this short tutorial on 
