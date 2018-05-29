@@ -58,7 +58,7 @@ Thursday 31st May (LAB, MOC, SA, DRG)
 * 10:00 - 18:00 hackathon
     * group 1 led by LAB 
     * group 2 led by SA - repository [here](https://bitbucket.org/SilviaAmAm/tmcs_2018/src/master/)  
-    * group 3 led by MOC 
+    * group 3 led by MOC - repository [here](https://github.com/mikeoconnor0308/tensorglove)
 * 12:00 - 13:00 guest lecture: Clare Macrae (developer @Cambridge Crystallographic Data Centre)
 * 18:00 - 19:00 pizza/wine party!
 
