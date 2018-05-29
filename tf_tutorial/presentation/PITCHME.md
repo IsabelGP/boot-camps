@@ -11,4 +11,4 @@
 
 ---
 
-![vae](/tf_tutorial/img/vae-sample.png =250x)
+![vae](/tf_tutorial/img/vae-sample.png =50x)
