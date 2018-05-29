@@ -8,16 +8,6 @@
 
 ---
 
-![Logo](/complexity.png)
-
----?image=/complexity.png&size=auto
-
----
-
 ![logo](/complexity.png)
-
----
-
-![logo](/pipeline/complexity.png)
 
 ---
