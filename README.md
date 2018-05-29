@@ -46,11 +46,12 @@ Wednesday 30th May (LAB, MOC, SA, DRG)
 * 15:15 A REALLY Quick overview of machine learning & data science (DRG)
 * 15:45 coffee
 * 16:00 Overview of the three hackathon projects
-    * LAB - Machine learning of data representation in Markov Models
+    * LAB - Learning with TensorFlow
     * SA  - Machine learning potential energy surfaces
     * MOC - Machine learning hand pose for interactive molecular simulation in VR
 * 16:30 coffee
-* 16:45 [The data science pipeline](https://github.com/RobertArbon/pipeline_example/blob/master/Data%20science%20pipeline.ipynb) - LAB
+* 16:45 The data science pipeline [slides](https://gitpitch.com/larsbratholm/boot-camps/pipeline?p=pipeline) - LAB
+    * [jupyter notebook](https://github.com/RobertArbon/pipeline_example/blob/master/Data%20science%20pipeline.ipynb)
 * 17:45 Pub. Students should take this opportunity to organize themselves into their project groups
 
 Thursday 31st May (LAB, MOC, SA, DRG)
