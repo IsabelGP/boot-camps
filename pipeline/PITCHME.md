@@ -6,10 +6,6 @@
 ### Limiting model complexity
 ### Optimizing out of sample performance
 
----
-
-![Logo](/complexity.png)
-
 ---?image=/complexity.png&size=auto
 
 ---
