@@ -7,4 +7,3 @@ Notebook example of scikit-learn data pipeline. Uses PCA and logistic regression
 2. seaborn
 3. pandas
 
-
