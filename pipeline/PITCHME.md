@@ -8,6 +8,13 @@
 
 ---
 
-![logo](/pipeline/complexity.png)
+![complexity](/pipeline/complexity.png)
 
 ---
+
+![cv](/pipeline/cv.png)
+
+---
+
+![validation](/pipeline/validation.png)
+
