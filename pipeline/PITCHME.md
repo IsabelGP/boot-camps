@@ -12,9 +12,14 @@
 
 ---
 
+Cross-validation
 ![cv](/pipeline/cv.png)
 
 ---
 
 ![validation](/pipeline/validation.png)
 
+---
+
+Classification of digits
+![digits](/pipeline/digits.png)
