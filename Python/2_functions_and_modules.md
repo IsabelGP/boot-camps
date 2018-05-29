@@ -154,7 +154,7 @@ So by encapsulating data and functions in modules, we can make code our more gen
 
 ## Exercise 2b
 
-The code that we wrote to make colors in [drawTwoTriangles-refactor1.py](2a/drawTwoTriangles-refactor1.py), something like
+The code that we wrote to make colors in [2a/drawTwoTriangles-refactor1.py](2a/drawTwoTriangles-refactor1.py), something like
 
     color = {}  # declare a color dictionary
     color['yellow'] = [1.0, 1.0, 0.0]  # fill each entry of the color dictionary with a list of three floats
@@ -224,7 +224,3 @@ Now if I run "colors.py" in PyCharm, I get the information printed.
 If instead I run my triangle drawing code in PyCharm, which imports colors.py as a module, the information is not printed. Have a go at including this code in your project, and verify for yourself that this is indeed the case.
 
 It is extremely good programming practice to write all of your scripts as if they were modules (and indeed to write all of your code as if they were part of a reusable library). This makes it really easy for you to pick up and reuse all of your code, preventing you from having to continually rewrite the same functionality over and over again.
-
-
-
-# [Previous](1_lists_and_dictionaries.md) [Next](3_documenting_code.md) 
