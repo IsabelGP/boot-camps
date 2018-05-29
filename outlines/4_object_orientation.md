@@ -5,7 +5,7 @@ You have now learned how to package up your code into re-usable, documented func
 
 One reason is that modules don't protect their data very well -i.e., other people (like yourself several months after you've written a module) have a habit of re-using your code in the wrong, or in unexpected ways...
 
-As an example, lets imagine someone using code in the [colors.py](..python/2b/colors.py) module. It would be really easy for somebody to write something like the following from somewhere in the pyglet routines:
+As an example, lets imagine someone using code in the [colors.py](../python/2b/colors.py) module. It would be really easy for somebody to write something like the following from somewhere in the pyglet routines:
 
     colors.color['blue']=[0.5,0.5,0.5]
 
@@ -35,7 +35,7 @@ An "object" is a particular instantiation of a "class" definition. Sticking with
 
 Ok, enough philosophy for now. The idea of putting together member data and member functions which are important for certain classes of objects is called "Encapsulation". It's a key idea of object orientated programming, and refers to the practice of hiding the data in a Class, with the net result that only the functions which are defined as part of the Class can read or write (change) the data. Not only can this actually result in simpler to use and easier-to-read code which maps onto the problem we're actually trying to solve, but it also enforces practices that are much less likely to get abused by others (or ourselves in the future) when we're coding.
 
-For example, take a look the code [triangleClass-v1.py](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/triangleClass-v1.py) required to make a very basic "triangle" class:
+For example, take a look the code [triangleClass.py](../python/4/triangleClass.py) required to make a very basic "triangle" class:
 
     class triangleClass:
 
@@ -78,7 +78,7 @@ This piece of Python contains lots of new ideas. Before we explore them, feel fr
 
 "triangleClass", is a example of a Class. Classes are used to package up functions with associated data. As you can see in the help(), we can only see the functions defined in the class. It has several functions, `__init__` (always enclosed on either side by two underscores), which is used to construct a new Object of type triangleClass, and several "set" and "get" functions, each of which is used to either retreive or set triangleClass data members. As you can see, the first argument to each of these functions is "self". "self" is a special variable that is used by the Class to gain access to the data hidden within. 
 
-Lets look again at the source for [triangleClass-v1.py](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/triangleClass-v1.py)
+Lets look again at the source for [triangleClass.py](../python/4/triangleClass.py)
 
     class triangleClass:
 
@@ -175,8 +175,8 @@ Note that we don't need to pass "self" ourselves to the member class functions. 
 Add the calculateTriangleVertices() to the triangleClass definition, and rework your code to utilize it. Hint: you should not need to pass anything into the function when it is called, because all the relevant data should now be included in the triangleClass definition. This should start to make your code a lot more streamlined.
 
 If you are really stuck, the example scripts are here:
-* [4a/drawTriangle.py](4a/1c-drawTriangle.py)
-* [4a/triangleClass.py](4a/triangleClass.py)
+* [4a/drawTriangle.py](../python/4a/1c-drawTriangle.py)
+* [4a/triangleClass.py](../python/4a/1c-triangleClass.py)
 
 ## Exercise 4b
 
@@ -189,8 +189,8 @@ Hints:
 * to really get the sense of motion, you will need to change the screen refresh rate. At present, it's set to 1/2 seconds; however, the human eye does not typically see motion as continuous until we have refresh rate close to 1/30 seconds.
 
 If you are really stuck, the example scripts are here:
-* [4b/drawTriangle.py](4b/2c-drawTriangle.py)
-* [4b/triangleClass.py](4b/2c-triangleClass.py)
+* [4b/drawTriangle.py](../python/4b/2c-drawTriangle.py)
+* [4b/triangleClass.py](../python/4b/2c-triangleClass.py)
 
 ## Exercise 4c
 
@@ -217,8 +217,8 @@ We could then do something like
 For code with lots of objects, you can see how useful this sort of thing would be. Your job in this exercise is to implement the triangles list described above, and refactor your code to make use of loops over this list. Then you should be able to easily extend your code so that it can draw and propagate the motion of five triangles, each a different color, and a different initial velocity.
 
 If you are really stuck, the example scripts are here:
-* [4c/drawTriangle.py](4c/3c-drawTriangle.py)
-* [4c/triangleClass.py](4c/3c-triangleClass.py)
+* [4c/drawTriangle.py](../python/4c/3c-drawTriangle.py)
+* [4c/triangleClass.py](../python/4c/3c-triangleClass.py)
 
 
 
