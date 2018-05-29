@@ -99,7 +99,7 @@ Now we will run the code from within PyCharm. To do this, right click on 'hello.
 
 In the simple code we wrote above, the keyToTheMeaningOfLife is clearly very useful, but not very easy to use or reusable. For example, say we started up a business with a code-base that required us to calculate keyToTheMeaningOfLife for billions of customers worldwide based on some value of mysticalSign given to us by each customer. And say that calculating keyToTheMeaningOfLife was a little bit more complicated than simple division. Calculating keyToTheMeaningOfLife would rapidly become unsustainable: we would have to carry out all sorts of edits, copying and pasting our code every time we need to calculate meaningOfLife within our code-base, potentially based on some different mysticalSign or even meaningOfLife values. You can see how this would get really tedious, and ultimately hurt our profit margins.
 
-Functions provide a way of packaging code into reusable and easy-to-use components. We can turn our keyToTheMeaningOfLife by defining a function - let's call it meaningOfLifeCalculator. To define such a function, we write
+Functions provide a way of packaging code into reusable and easy-to-use components. We can easily obtain our keyToTheMeaningOfLife by defining a function - let's call it meaningOfLifeCalculator. To define such a function, we write
 ```
 def meaningOfLifeCalculator(meaning, sign):
     key = meaning/sign
