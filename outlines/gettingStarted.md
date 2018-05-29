@@ -74,8 +74,11 @@ One of the most popular IDEs for Python is called PyCharm - this is going to be 
 2) open PyCharm
 3) On the Welcome screen, click Create New Project
 4) specify that the project should live in /helloTest
-5) be sure to choose the local anaconda python interpreter (py36) as your python interpreter. For example, mine lives at /anaconda/envs/py36/bin/python). More general instructions [can be found here](https://docs.continuum.io/anaconda/ide_integration#pycharm). If you want to learn more about the Anaconda environment and package management, have a look at the [Anaconda documentation](http://conda.pydata.org/docs/using/index.html).
-6) Click Create
+5) be sure to choose the local anaconda python interpreter (py36) as your python interpreter. For example, mine lives at /anaconda/envs/py36/bin/python). If you're unsure exactly where your anaconda py36 interpreter lives, it's easy to find out from witin the py36 environment by typing the following command:
+```
+$ which python
+```
+6) Navigate pyCharm to this directory, and then click "Create" from within PyCharm
 7) in the project explorer, right click the 'helloTest directory', and add a new file called 'hello.py'
 8) use the PyCharm text editor to fill 'hello.py' with the following:
 ```
