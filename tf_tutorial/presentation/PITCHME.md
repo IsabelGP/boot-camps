@@ -9,5 +9,5 @@
 
 ![classification](/tf_tutorial/img/classification.png)
 
----?image=tf_tutorial/img/vae-sample.png&size=auto 90%
+---?image=tf_tutorial/img/vae-sample.png&size=auto 95%
 

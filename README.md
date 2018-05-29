@@ -46,18 +46,18 @@ Wednesday 30th May (LAB, MOC, SA, DRG)
 * 15:15 A REALLY Quick overview of machine learning & data science (DRG)
 * 15:45 coffee
 * 16:00 Overview of the three hackathon projects
-    * LAB - Learning with TensorFlow
+    * LAB - Learning with TensorFlow - [slides](https://gitpitch.com/larsbratholm/boot-camps/master?p=tf_tutorial/presentation)
     * SA  - Machine learning potential energy surfaces
     * MOC - Machine learning hand pose for interactive molecular simulation in VR
 * 16:30 coffee
-* 16:45 The data science pipeline [slides](https://gitpitch.com/larsbratholm/boot-camps/pipeline?p=pipeline) - LAB
-    * [jupyter notebook](https://github.com/RobertArbon/pipeline_example/blob/master/Data%20science%20pipeline.ipynb)
+* 16:45 The data science pipeline [slides](https://gitpitch.com/larsbratholm/boot-camps/master?p=pipeline) - LAB
+    * [jupyter notebook](pipeline/data_science_pipeline.ipynb)
 * 17:45 Pub. Students should take this opportunity to organize themselves into their project groups
 
 Thursday 31st May (LAB, MOC, SA, DRG)
 
 * 10:00 - 18:00 hackathon
-    * group 1 led by LAB 
+    * group 1 led by LAB - tutorial [here](tf_tutorial/README.md)
     * group 2 led by SA - repository [here](https://bitbucket.org/SilviaAmAm/tmcs_2018/src/master/)  
     * group 3 led by MOC - repository [here](https://github.com/mikeoconnor0308/tensorglove)
 * 12:00 - 13:00 guest lecture: Clare Macrae (developer @Cambridge Crystallographic Data Centre)

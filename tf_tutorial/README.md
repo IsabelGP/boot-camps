@@ -1,16 +1,10 @@
-# Glowacki Group Hackathon 2018
+# Tensorflow tutorial / workshop
 
-26th-27th of April 2018
+The workshop will use python 3 and TensorFlow 1.6 and can be installed with anaconda or pip. Alternatively, you can find instructions on how to install TensorFlow [here](https://www.tensorflow.org/install/).
 
-## Before the workshop
-
-The workshop will use python 3 and TensorFlow 1.6. You can find instructions on how to install TensorFlow [here](https://www.tensorflow.org/install/).
-
-The powerpoint and pdf slides for the tutorial part of the Hackathon are in the "Presentation" folder. If you don't have powerpoint, you can see the comment box for the slides in the online powerpointslides version, which can be found [here](https://docs.google.com/presentation/d/1bZUQVG-qvrTJEMgAYk59rG8Ux4b3Bpmmku4Q3GfxJyw/edit?usp=sharing). Note that the equations get messed up in the online powerpoint slides.
+The pdf slides for the tutorial part of the Hackathon are in the "presentation" folder.
 
 ## Timetable
-
-Thursday 26th of April, Tutorial (10 - 12 am):
 
 * Introduction to TensorFlow (presentation, ~20 min):
 
@@ -34,17 +28,15 @@ Thursday 26th of April, Tutorial (10 - 12 am):
 
     1. Cubic function
 
-* Tensorboard and Dataset API (presentation, ~15 min)
+## Projects:
 
-Thursday 26th of April, Projects (1-5 pm):
+1. Survival prediction of Titanic passengers [here](https://www.kaggle.com/c/titanic/data)
 
-1. Auto-encoder for picture compression:
+2. Auto-encoder for picture compression:
 Introductions to the theory of autoencoders and how to build one can be found [here](http://ufldl.stanford.edu/tutorial/unsupervised/Autoencoders/) and [here](https://blog.keras.io/building-autoencoders-in-keras.html).
 
-2. "Beginner" tensorflow tutorials can be found [here](https://www.tensorflow.org/versions/r1.1/get_started/mnist/beginners).
+3. Machine learning datasets [UCI](https://archive.ics.uci.edu/ml/datasets.html) and [kaggle](https://www.kaggle.com/datasets)
+
+3. "Beginner" tensorflow tutorials can be found [here](https://www.tensorflow.org/versions/r1.1/get_started/mnist/beginners).
  
-3. Advanced tensorflow tutorials can be found [here](https://www.tensorflow.org/tutorials/). For those of you that are feeling adventurous...
-
-Friday 27th of April:
-
-Carry on with the Hackathon projects/tutorials.
+4. Advanced tensorflow tutorials can be found [here](https://www.tensorflow.org/tutorials/). For those of you that are feeling adventurous...
