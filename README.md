@@ -41,6 +41,7 @@ Wednesday 30th May (LAB, MOC, SA, DRG)
 * 12:30 Lunch
 * 13:30 Version Control 
     * [Part 2: Remote repos & GIT GUIs](outlines/git-outline.md#part-2) - LAB
+    * live code example: how to upload your game projects onto github using gitkraken
 * 14:30 coffee
 * 14:45 [Testing software and catching errors](testing/README.md) ([slides](testing/slides.pdf)) - LAB/DRG
 * 15:15 A REALLY Quick overview of machine learning & data science (DRG)
